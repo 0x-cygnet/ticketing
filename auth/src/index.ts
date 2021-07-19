@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 import { app } from './app';
 
-console.log('checking workflow');
+console.log('checking workflow for merge');
 
 const start = async () => {
   if (!process.env.JWT_KEY) {
