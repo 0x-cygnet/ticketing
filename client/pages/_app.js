@@ -12,7 +12,7 @@ const AppComponent = ({ Component, pageProps, currentUser }) => {
     </div>
   );
 };
-console.log("for deploy");
+console.log("for deploy 1");
 AppComponent.getInitialProps = async (appContext) => {
   const client = buildClient(appContext.ctx);
   const { data } = await client.get("/api/users/currentuser");
